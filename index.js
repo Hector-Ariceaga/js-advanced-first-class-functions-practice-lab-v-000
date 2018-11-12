@@ -1,3 +1,3 @@
-const logDriverNames = function(drivers) {
+const logDriverNames = function() {
   return drivers.forEach(name);
 }
