@@ -21,6 +21,7 @@ const driversByRevenue = function(drivers) {
 
 const driversByName = function(drivers) {
   let newDriversArray = driveres.slice(0).sort(function(d1,d2) {
-    
+    return d1.localCompare(d2)
   })
+  return newDriversArray
 }
