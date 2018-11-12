@@ -17,4 +17,5 @@ const driversByRevenue = function(drivers) {
     console.log(d1.revenue, d2.revenue)
     return d1.revenue - d2.revenue;
   })
+  console.log(drivers)
 }
