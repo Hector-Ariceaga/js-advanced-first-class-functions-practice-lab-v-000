@@ -16,4 +16,5 @@ const driversByRevenue = function(drivers) {
   let newDriversArray = drivers.slice(0).sort(function(d1, d2) {
     return d1.revenue - d2.revenue;
   })
+  return newDriversArray
 }
