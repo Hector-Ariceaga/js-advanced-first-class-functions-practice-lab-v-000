@@ -25,3 +25,7 @@ const driversByName = function(drivers) {
   })
   return newDriversArray
 }
+
+const totalRevenue = function(drivers) {
+  
+}
