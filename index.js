@@ -1,3 +1,3 @@
-function logDriverNames = function(el, i, arr) {
-  return drivers.forEach(driver)
+function logDriverNames = function(el, i, drivers) {
+  return drivers.forEach()
 }
