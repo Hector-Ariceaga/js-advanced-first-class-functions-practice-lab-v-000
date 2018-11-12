@@ -28,7 +28,7 @@ const driversByName = function(drivers) {
 
 const totalRevenue = function(drivers) {
   return drivers.reduce(function(acc, driver) {
-    console.log(driver.revenue.type)
+    console.log(tyeOf(driver.revenue))
     return acc + driver.revenue
     
   })
