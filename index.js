@@ -28,10 +28,14 @@ const driversByName = function(drivers) {
 
 const totalRevenue = function(drivers) {
   return drivers.reduce(function(acc, driver) {
-    console.log(driver.revenue)
     return acc + driver.revenue
   }, 0)
 }
 
-const averageRevenue
+const averageRevenue = function(drivers) {
+  const total = drivers.reduce(function(acc, driver) {
+    return acc + driver.revenue
+  }, 0)
+  return total / drivers.count
+}
   
