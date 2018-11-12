@@ -30,6 +30,6 @@ const totalRevenue = function(drivers) {
   return drivers.reduce(function(acc, driver) {
     console.log(driver.revenue)
     return acc + driver.revenue
-  })
+  }, 0)
 }
   
